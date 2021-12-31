@@ -1,0 +1,53 @@
+.versus-box {
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    /*box-shadow: 5px 5px 15px #888888;*/
+}
+
+.btn-versus {
+    background-size: cover;
+    text-align: center;
+    height: 106px;
+    width: 106px;
+}
+.versus-title {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    color: #FFF;
+}
+.characters-box {
+    width: auto;
+    height: 440px;
+    border-radius: 10px 10px 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.description-box {
+    width: auto;
+    height: 150px;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 0 0 10px 10px;
+}
+.character-name {
+    text-align: center;
+}
+.first-box {
+    color: #212529;
+    background-color: #e2e6ea;
+}
+.second-box {
+    color: #FFF;
+    background-color: #343a40;
+}
+.vs-title {
+    color: #dddddd;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.vignette {
+    height: 106px;
+    border-radius: 5px;
+    background: rgba(31, 31, 31, 0.8) center no-repeat;
+}

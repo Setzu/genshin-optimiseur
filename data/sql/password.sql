@@ -1,0 +1,10 @@
+DROP TABLE password;
+
+CREATE TABLE IF NOT EXISTS password (
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    user_id INT NOT NULL,
+    user_email VARCHAR(255) NOT NULL,
+    token VARCHAR(255) NOT NULL,
+    validated INT(1) NOT NULL DEFAULT 0,
+    request_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;

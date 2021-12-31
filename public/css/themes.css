@@ -1,0 +1,30 @@
+.radial-gradient-1 {
+    background: radial-gradient(#828487, #707276);
+}
+.radial-gradient-2 {
+    background: radial-gradient(#629e86, #5c8b78);
+}
+.radial-gradient-3 {
+    background: radial-gradient(#6190b2, #587499);
+}
+.radial-gradient-4 {
+    background: radial-gradient(#9579bc, #7463a1);
+}
+.radial-gradient-5 {
+    background: radial-gradient(#d0892a, #b9782f);
+}
+.border-4 {
+    border: 2px solid #9579bc;
+    border-radius: 10px;
+}
+.border-5 {
+    border: 2px solid #d0892a;
+    border-radius: 10px;
+}
+.background-0 {background-color: #ffd780;}
+.background-1 {background-color: #fe925d;}
+.background-2 {background-color: #21e1eb;}
+.background-3 {background-color: #72e2c3;}
+.background-4 {background-color: #a757cb;}
+.background-4 {background-color: #a0e9e5;}
+.background-5 {background-color: #e3b342;}

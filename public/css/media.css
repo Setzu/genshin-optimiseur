@@ -1,0 +1,91 @@
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 1200px) {
+    .col-3, .col-4, .col-7, .col-9, .col-10 {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .col-7,.col-10 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .dark-box {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .col-form-label {text-align: left !important;}
+    .ui-tabs-nav {padding-left: 0;}
+    a.title-detail {
+        max-width: 30%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    span.weapon-name{display: none}
+    button.btn-weapons{
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center !important;
+    }
+    ul.elements-filter, ul.ranks-filter {
+        padding-left: 0;
+    }
+    ul.elements-filter > li {
+        max-width: 20px;
+    }
+    ul.elements-filter > img {
+        width: 40px;
+        height: 40px;
+    }
+    img.elements-img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+}
+@media screen and (max-width: 1400px) {
+    ul {padding-left: 0;}
+}
+@media screen and (min-width: 1001px) {
+    .alternate-home{display: none}
+}
+@media screen and (max-width: 1000px) {
+    .container-fluid, .col-sm-3, .col-sm-4, .col-sm-5{padding-left: 0;padding-right: 0}
+    .row{margin-left: 0;margin-right: 0}
+    .carousel{display: none}
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none !important;
+        display: block;
+        text-align: left;
+    }
+    a.icon {
+        height: 54px;
+    }
+    .characters-filters {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    ul.weapons-filter > li{
+        width: 18%;
+        display: inline-block;
+    }
+    strong.weapon-filter {display: none;}
+    .characters-content {padding: 0;}
+    .characters-filters > ul {text-align: center;}
+    .col-total-stat{padding-left: 0; padding-right: 0}
+    button.artifacts-tab, button.weapons-tab {
+        max-width: 20%;
+        margin: 0;
+        padding: 0;
+    }
+    .character-container {margin: 0 !important;}
+}

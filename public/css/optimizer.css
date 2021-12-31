@@ -1,0 +1,24 @@
+.name-total-stat {
+    height: 31px;
+    line-height: 31px;
+    margin-bottom: 5px
+}
+label {
+    margin-bottom: 0 !important;
+}
+label.label-total-stat {
+    width: 70%;
+}
+input.total-stat {
+    width: 30%;
+}
+li.list-group-custom {
+    position: relative;
+    display: block;
+    padding: 5px;
+}
+.box-optimizer {
+    padding-top: 10px;
+    background-color: #343a40;
+}
+.optimizer-table {margin-bottom: 0;}
