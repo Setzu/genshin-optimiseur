@@ -1,8 +1,0 @@
-/vendor
-/config/config.php
-/config/db.conf.php
-/data/logs
-/public/.htaccess
-/public/index.php
-.idea
-.htaccess
